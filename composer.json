@@ -1,5 +1,5 @@
 {
-  "name": "sphido/events",
+  "name": "teronis-php/event-dispatcher",
   "description": "Super simple event dispatching library for PHP",
   "keywords": [
     "event",
@@ -18,9 +18,9 @@
     }
   ],
   "autoload": {
-    "files": [
-      "src/events.php"
-    ]
+    "psr-4": {
+      "Teronis\\EventDispatcher\\": "src/"
+    }
   },
   "require": {
     "php": ">=7.0"
